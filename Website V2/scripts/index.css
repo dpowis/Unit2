@@ -1,0 +1,89 @@
+﻿body {
+    background-image: url('../images/original/JapaneseS.jpg');
+}
+.Wrapper{
+    text-align: center;
+    width:1300px;
+}
+.Header{
+width:800px;
+}
+.Nav{
+    width:200px;
+    float:left;
+    border:5px;
+    padding:1px;
+    position:static;
+    }
+pre {
+    background-color:tomato
+}
+.Content{
+    text-align: center;
+    justify-content: center;
+    content: inherit;
+    display: inline;
+    width:100%;
+    color:lightgreen;
+}
+.Feedback{
+    background-color:#ffd800;
+    font-family:Tahoma;
+    font-size:xx-large;
+}
+.paddingTxt{
+    padding-left:2px;
+}
+.fa-solid fa-train{
+z-index:-1;
+position:fixed;
+height:30px;
+width:40px;
+
+}
+.fa-solid fa-train2{
+    z-index: 0;
+    position: fixed;
+    height: 41px;
+    width: 40px;
+   
+}
+.header{
+    color:#ffd700;
+    background-color: firebrick;
+}
+.headerhome{
+    color:#808080;
+    font-weight:bold;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns:150px;
+    padding:3px;
+}
+.grid-item{   
+    border:10px;
+    font-size:10px;
+    text-align: center;
+    justify-content:center;
+    align-items: inherit;
+}
+.grid-containerfb {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-itemfb {
+    background-color: slategrey;
+    font-size-adjust: inherit;
+    font-size: 20px;
+    justify-content: end;
+    position:static;
+    text-align: center;
+}
+.Footer {
+    text-align: center;
+    width:1300px;
+    ;
+    background-color:olivedrab;
+    position:absolute;
+ }
